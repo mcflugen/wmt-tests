@@ -1,0 +1,24 @@
+model:
+- class: D8Global
+  connect: {}
+  driver: true
+  id: D8Global
+  parameters:
+    A_units: meters
+    DEM_file: site_DEM.rtg
+    FILL_PITS_IN_Z0: 'No'
+    LINK_FLATS: 'Yes'
+    LR_PERIODIC: 'No'
+    TB_PERIODIC: 'No'
+    _output_format: netcdf
+    _output_interval: '1'
+    _run_duration: '1'
+    _update_time_step: '1'
+    case_prefix: case
+    dt: '1'
+    n_steps: '1'
+    pixel_file: 'off'
+    rti_file: site.rti
+    site_prefix: site
+name: D8Global_Default
+
